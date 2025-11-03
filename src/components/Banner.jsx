@@ -15,13 +15,13 @@ const Banner = () => {
   return (
     <div
       style={{ backgroundImage: `url(${banner})` }}
-      className="bg-cover bg-no-repeat  w-full h-dvh relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-[#00000059] after:to-[#00000069] px-5 "
+      className="bg-cover bg-no-repeat  w-full max-h-dvh relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-[#00000059] after:to-[#00000069] px-5 "
     >
-      <div className="max-w-[1040px] mx-auto  h-screen flex flex-col justify-around z-10 relative">
+      <div className="max-w-7xl mx-auto  h-screen flex flex-col justify-around z-10 relative">
         <div className="h-screen flex flex-col justify-around pt-48">
-          <div className="min-[1500px]:max-w-[652px] max-w-[462px] w-full">
+          <div className="max-w-[700px] w-full">
             <h6
-              className="max-[376px]:leading-[22px] max-[426px]:text-[17px] max-[768px]:text-[22px] max-md:leading-[30px] font-[Poppins] font-bold text-[30px] min-[1500px]:text-[40px] leading-[40px]  min-[1500px]:leading-[50px]"
+              className="max-[376px]:leading-[22px] max-[426px]:text-[17px] max-[768px]:text-[22px] max-md:leading-[30px] font-[Poppins] font-bold text-[40px] min-[1500px]:text-[40px] leading-[40px]  min-[1500px]:leading-[50px]"
               data-aos="zoom-in"
             >
               <span className="bg-[linear-gradient(to_right,#F9F9F9,#05915B_61%,#08F7C3_38%)] bg-clip-text text-transparent">
@@ -36,7 +36,7 @@ const Banner = () => {
             </h6>
             <p
               data-aos="zoom-in"
-              className="max-[376px]:mt-1.5 max-[426px]:text-[12px] font-[Poppins] font-normal text-[13px] min-[1500px]:text-[18px] text-[#F9F9F9] mt-5 min-[1500px]:mt-8"
+              className="max-[376px]:mt-1.5 max-[426px]:text-[12px] font-[Poppins] font-normal text-[18px] text-[#F9F9F9] mt-5 min-[1500px]:mt-8"
             >
               The top CCTV and networking solutions in Dubai are essential for
               any business owner to consider for their security.

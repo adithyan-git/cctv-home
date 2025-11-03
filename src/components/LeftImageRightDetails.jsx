@@ -5,7 +5,7 @@ import arrowright from "../assets/images/arrowright.webp";
 const LeftImageRightDetails = ({ future }) => {
   return (
     <div className="pb-11 px-5 " key={future.id}>
-      <div className="max-w-[1040px] mx-auto w-full grid grid-cols-2 gap-[34px] max-[375px]:gap-3.5 max-md:grid-cols-1">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-2 gap-[34px] max-[375px]:gap-3.5 max-md:grid-cols-1">
         <div className="overflow-hidden">
           <img
             src={future.image}

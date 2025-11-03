@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[linear-gradient(to_right,#151320,#120E23)] pt-[84px] px-5">
-      <div className="max-w-[1040px] w-full mx-auto">
-        <div className="grid grid-cols-4 gap-[85.33px] max-[376px]:gap-5 max-[979px]:grid-cols-3 max-[723px]:grid-cols-2 max-[321px]:grid-cols-1 ">
+      <div className="max-w-7xl w-full mx-auto">
+        <div className="grid grid-cols-4 gap-[85.33px] max-[536px]:gap-5 max-[979px]:grid-cols-3  max-[536px]:grid-cols-1 ">
           <div>
             <h6 className="font-[Poppins] font-normal text-[20px] text-[#FFFFFF] mb-6">
               About us

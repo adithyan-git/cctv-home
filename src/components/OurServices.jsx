@@ -5,7 +5,7 @@ import { serviceDetails } from "../futuresDetails";
 const OurServices = () => {
   return (
     <div className="max-[376px]:pt-10  pt-[72px] px-5">
-      <div className="max-w-[1040px] w-full mx-auto pb-12">
+      <div className="max-w-7xl w-full mx-auto pb-12">
         <div className="flex flex-col items-center mb-16">
           <h6
             data-aos="zoom-in"

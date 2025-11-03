@@ -14,7 +14,7 @@ const Header = () => {
     setShow(false);
   };
   return (
-    <div className="max-[992px]:top-6 max-xl:px-5 max-w-[1040px] w-full h-[72px] mx-auto flex justify-between fixed left-1/2 -translate-x-1/2 items-center top-[72px] z-30">
+    <div className="max-[992px]:top-6 max-xl:px-5 max-w-7xl w-full h-[72px] mx-auto flex justify-between fixed left-1/2 -translate-x-1/2 items-center top-[72px] z-30">
       <div>
         <span className="max-[426px]:text-2xl font-normal font-[Poppins] text-[#F9F9F9] text-[40px] cursor-pointer">
           Sacrosys

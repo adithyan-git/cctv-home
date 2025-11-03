@@ -5,7 +5,7 @@ import arrowright from "../assets/images/arrowright.webp";
 const LeftDetailsRightImage = ({ future }) => {
   return (
     <div className="  pb-11 px-5" key={future.id}>
-      <div className="max-w-[1040px] mx-auto w-full grid grid-cols-2 gap-[34px] max-md:grid-cols-1  ">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-2 gap-[34px] max-md:grid-cols-1  ">
         <div className="flex flex-col items-center">
           <div className="mb-6 max-[376px]:mb-2.5">
             <h5

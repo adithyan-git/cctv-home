@@ -26,7 +26,7 @@ const WideRangeFeature = () => {
   ];
   return (
     <div className="max-[376px]:pt-10 max-[376px]:pb-10 pt-[72px] pb-[92px] px-5">
-      <div className="max-w-[1040px] mx-auto w-full">
+      <div className="max-w-7xl mx-auto w-full">
         <div className="mb-6">
           <h5
             data-aos="zoom-in"

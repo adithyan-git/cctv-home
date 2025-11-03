@@ -4,7 +4,7 @@ import cctv from "../assets/images/cctv.webp";
 const Enquiry = () => {
   return (
     <div className=" pt-[46px] px-5">
-      <div className="max-w-[1040px] w-full mx-auto">
+      <div className="max-w-7xl w-full mx-auto">
         <div
           className="w-full grid grid-cols-12 max-md:grid-cols-2 max-md:h-fit max-md:py-5 h-96 bg-[linear-gradient(to_right,#FF2DF7,#5200FF,#00F0FF)] rounded-3xl px-5"
           data-aos="fade-up"

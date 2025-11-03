@@ -8,7 +8,7 @@ import { cameraProducts } from "../futuresDetails";
 const ExplorProducts = () => {
   return (
     <div className="px-5">
-      <div className="max-w-[1040px] w-full mx-auto">
+      <div className="max-w-7xl w-full mx-auto">
         <div className="flex justify-center mb-6 max-[376px]:mb-3">
           <h5
             data-aos="zoom-in"
