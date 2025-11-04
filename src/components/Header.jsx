@@ -33,7 +33,7 @@ const Header = () => {
         scrolled
           ? "bg-[linear-gradient(to_right,#05915A_-20%,#000000_35%,#05915A_119%)] top-0"
           : "bg-transparent top-[72px]"
-      } max-[992px]:top-6 max-xl:px-5 w-full h-[72px] mx-auto flex justify-between fixed left-1/2 -translate-x-1/2 items-center  z-30 transition-all duration-500`}
+      }  max-xl:px-5 w-full h-[72px] mx-auto flex justify-between fixed left-1/2 -translate-x-1/2 items-center  z-30 transition-all duration-500`}
     >
       <div className=" max-xl:px-5 max-w-7xl w-full h-[72px] mx-auto flex justify-between   items-center z-30">
         <div>

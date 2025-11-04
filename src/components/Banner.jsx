@@ -44,14 +44,14 @@ const Banner = () => {
             <hr className="border-0 h-[1px] bg-gradient-to-r from-[#2DFF53] via-[#00FFD4] to-[#006233]   mt-[7px]" />
           </div>
           <div className=" w-full flex items-center justify-center ">
-            <div className="min-[1500px]:w-[639px] max-[547px]:w-[260px] max-[768px]:w-[400px] max-md:p-2.5 w-[500px] h-fit rounded-[100px] border  border-[#3461FF] bg-[#083F31] p-5 min-[1500px]:p-6">
-              <div className="w-full h-fit bg-[#BEF1C9] rounded-[52px] p-2 relative">
+            <div className="max-w-[567px]  max-[547px]:w-[260px] max-[768px]:w-[400px] max-md:p-2.5 w-[500px] h-fit rounded-[100px] border  border-[#3461FF] bg-[#083F31] p-4">
+              <div className="w-full h-fit bg-[#BEF1C9] rounded-[52px] p-2 relative max-[547px]:p-[5px]">
                 <div
                   className={`w-fit transition-all duration-700 ease-in relative" 
-          ${moveRight ? "translate-x-[120%]" : "translate-x-0"}`}
+          ${moveRight ? "translate-x-[129%]" : "translate-x-0"}`}
                   onClick={handleClick}
                 >
-                  <button className=" max-[547px]:h-[30px]  max-[547px]:text-[12px] max-[547px]:w-[101px] max-[768px]:w-[164px] max-[768px]:text-[16px] transition-all duration-700 w-[200px] min-[1500px]:w-[259px] h-[50px] min-[1500px]:h-[77px] rounded-[42px] bg-[linear-gradient(to_right,#08F7B7,#004F1A)] hover:bg-[linear-gradient(to_right,#004F1A,#08F7B7)] cursor-pointer  font-semibold min-[1500px]:text-2xl text-[20px] font-[Radio Canada] text-[#F9F9F9] shadow-[0px_2px_5px_2px] shadow-[#525FF740]">
+                  <button className=" max-[547px]:h-[30px]  max-[547px]:text-[12px] max-[547px]:w-[100px]  max-[768px]:w-[158px] max-[768px]:text-[16px] transition-all duration-700 w-[200px] max-w-[197px] h-[50px] rounded-[42px] bg-[linear-gradient(to_right,#08F7B7,#004F1A)] hover:bg-[linear-gradient(to_right,#004F1A,#08F7B7)] cursor-pointer  font-semibold  text-[20px] font-[Radio Canada] text-[#F9F9F9] shadow-[0px_2px_5px_2px] shadow-[#525FF740]">
                     Swipe to Switch
                   </button>
                   {showRightArrow ? (
